@@ -1,26 +1,39 @@
-body {
-    background-color: black;
-    color: greenyellow;
-    font-family: monospace;
-}
-
-.days {
+#container {
+    display: grid;
+    text-align: center;
     font-size: x-large;
 }
+
+
+body {
+    background-color: rgb(22, 22, 22);
+    color: rgb(0,170,0);
+    font-family: monospace;
+    max-width: 100%;
+    padding: 15px;
+}
+
 
 .wb-body {
     background-color: rgb(192,192,192);
     color: black;
     font-weight: bold;
     padding: 10px
+    
 }
 
 #menu {
-    line-height: 3;
+    line-height: 4;
+    text-align: center;
+    justify-content: left;
+
 }
 
 .name { 
+    display: grid;
     font-size: medium;
     font-weight:bolder;
-    color: greenyellow;
+    color: rgb(0,170,0);
+    font-size: x-large;
+    justify-content: center;
 }

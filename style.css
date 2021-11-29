@@ -1,0 +1,26 @@
+body {
+    background-color: black;
+    color: greenyellow;
+    font-family: monospace;
+}
+
+.days {
+    font-size: x-large;
+}
+
+.wb-body {
+    background-color: rgb(192,192,192);
+    color: black;
+    font-weight: bold;
+    padding: 10px
+}
+
+#menu {
+    line-height: 3;
+}
+
+.name { 
+    font-size: medium;
+    font-weight:bolder;
+    color: greenyellow;
+}
